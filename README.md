@@ -1,13 +1,32 @@
-# Customer Churn Prediction
+# 📉 Customer Churn Prediction
 
-A machine learning project to predict telecom customer churn using Random Forest.
+Predicts whether a telecom customer will churn using a **Random Forest Classifier**, 
+enabling proactive retention strategies.
 
-## Files
-- `app.py` — Flask web application
-- `Churn_Analysis_-_EDA.ipynb` — Exploratory data analysis
-- `Churn_Analysis_-_Model_Building.ipynb` — Model training
-- `customer.csv` — Dataset
+## 🛠️ Tech Stack
+Python · Pandas · Scikit-learn · Flask · Matplotlib · Seaborn
 
-## How to run
+## 📈 Model Performance
+| Metric | Score |
+|--------|-------|
+| Accuracy | 80% |
+| F1 Score | 75% |
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/Ayushigupta2807/Customer-churn-prediction.git
 pip install -r requirements.txt
 python app.py
+```
+
+## 💡 Key Insights
+- Month-to-month contract customers churn the most
+- Higher monthly charges = higher churn risk
+- Longer tenure customers are far more loyal
+
+## 📁 Structure
+| File | Purpose |
+|------|---------|
+| `EDA.ipynb` | Exploratory analysis |
+| `Model Building.ipynb` | Training & evaluation |
+| `app.py` | Flask web app |
